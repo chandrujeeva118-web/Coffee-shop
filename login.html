@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Coffee Paradise</title>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+
+<body>
+
+
+    <div class="login-page">
+
+
+        <!-- ================= LEFT ================= -->
+
+        <div class="login-image">
+
+            <div class="login-image-content">
+
+                <div class="coffee-icon">
+                    ☕
+                </div>
+
+                <h1>
+                    Welcome Back
+                </h1>
+
+                <p>
+                    Login to continue your
+                    coffee experience.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= RIGHT ================= -->
+
+        <div class="login-content">
+
+
+            <a
+                href="index.html"
+                class="back-home">
+
+                ← Back to Home
+
+            </a>
+
+
+            <div class="login-header">
+
+                <p class="login-script">
+                    Welcome
+                </p>
+
+                <h2>
+                    Login
+                </h2>
+
+                <p>
+                    Enter your details to access
+                    your account.
+                </p>
+
+            </div>
+
+
+            <!-- LOGIN FORM -->
+
+            <form
+                class="login-form"
+                id="loginForm">
+
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="password">
+                        Password
+                    </label>
+
+
+                    <div class="password-box">
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter your password"
+                            required>
+
+
+                        <button
+                            type="button"
+                            id="togglePassword">
+
+                            Show
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-options">
+
+                    <label class="remember">
+
+                        <input
+                            type="checkbox"
+                            id="remember">
+
+                        Remember me
+
+                    </label>
+
+
+                    <a
+                        href="#"
+                        id="forgotPassword">
+
+                        Forgot Password?
+
+                    </a>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="login-submit">
+
+                    Login
+
+                </button>
+
+
+                <p
+                    class="login-message"
+                    id="loginMessage">
+                </p>
+
+            </form>
+
+
+            <p class="register-text">
+
+                Don't have an account?
+
+                <a
+                    href="#"
+                    id="createAccount">
+
+                    Create Account
+
+                </a>
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>
